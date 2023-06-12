@@ -1,0 +1,24 @@
+form {
+  width: min(100%, 20rem);
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+form > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+form input {
+  flex: 1;
+}
+
+form label {
+  width: 40%;
+}
+
+thead {
+  font-weight: 600;
+}
